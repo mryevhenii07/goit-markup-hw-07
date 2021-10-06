@@ -526,4 +526,110 @@ img {
 .footer__link-svg {
   fill: #ffffff;
 }
+
+.footer {
+  background: #2f303a;
+}
+
+.contact__footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 10px;
+  width: 203px;
+  display: block;
+}
+
+.address {
+  color: #ffffff;
+}
+
+.footer__wrap-address {
+  font-style: normal;
+}
+
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer__block-center {
+  margin-left: 70px;
+}
+
+.footer__paragraph {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer__form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.form__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form__mail {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: #2f303a;
+  margin-right: 12px;
+  outline: none;
+  padding-left: 15px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.footer__form-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 50px;
+  width: 200px;
+  background-color: var(--primary-text-color);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--secender-text-color);
+  margin-top: 36px;
+  border: none;
+  cursor: pointer;
+}
+
+.footer__form-svg {
+  fill: var(--secender-text-color);
+}
+
+.form__wrap-btn {
+  margin-left: 10px;
+}
 /*# sourceMappingURL=main.css.map */
