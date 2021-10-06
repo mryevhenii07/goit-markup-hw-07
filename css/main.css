@@ -310,7 +310,7 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-textarea {
+.modal__textarea {
   width: 100%;
   height: 120px;
   border-radius: 4px;
@@ -321,37 +321,37 @@ img {
   outline: none;
 }
 
-.modal-textarea:focus {
+.modal__textarea:focus {
   border-color: var(--primary-text-color);
 }
 
-.modal-textarea:focus::-webkit-input-placeholder {
+.modal__textarea:focus::-webkit-input-placeholder {
   font-size: 16px;
 }
 
-.modal-textarea:focus:-ms-input-placeholder {
+.modal__textarea:focus:-ms-input-placeholder {
   font-size: 16px;
 }
 
-.modal-textarea:focus::-ms-input-placeholder {
+.modal__textarea:focus::-ms-input-placeholder {
   font-size: 16px;
 }
 
-.modal-textarea:focus::placeholder {
+.modal__textarea:focus::placeholder {
   font-size: 16px;
 }
 
-.modal-wrapper-label-input-check {
+.wrapper__checkbox {
   margin-bottom: 30px;
   margin-top: 20px;
 }
 
-.modal-check-input:checked + .modal-checkbox > .modal-check-label {
+.checkbox__input:checked + .checkbox__label > .chackbox__wrap-svg {
   background-color: var(--primary-text-color);
   border: transparent;
 }
 
-.modal-checkbox {
+.checkbox__label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -376,7 +376,7 @@ img {
   clip: rect(0 0 0 0);
 }
 
-.modal-check-label {
+.chackbox__wrap-svg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -393,20 +393,20 @@ img {
   margin-right: 5px;
 }
 
-.modal-form-icon {
+.chackbox__svg {
   fill: var(--secender-text-color);
 }
 
-.model-checkbox-span {
+.chackbox__wrap-link {
   margin-left: 5px;
 }
 
-.model-checkbox-link {
+.chackbox-link {
   color: var(--primary-text-color);
   text-decoration: underline;
 }
 
-.modal-form-wrapper-btn {
+.wrapper__btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -415,7 +415,7 @@ img {
           justify-content: center;
 }
 
-.modal-form-btn {
+.btn__send {
   width: 200px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -429,7 +429,7 @@ img {
   cursor: pointer;
 }
 
-.main-modal-btn {
+.btn__close {
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -456,7 +456,7 @@ img {
   letter-spacing: 0.06em;
 }
 
-.main-modal-btn :hover {
+.btn__close :hover {
   fill: var(--primary-text-color);
 }
 /*# sourceMappingURL=main.css.map */
