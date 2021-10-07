@@ -1,9 +1,14 @@
 @import "utils/variables";
-@import "components/header";
+@import "./utils/header";
+@import "./utils/footer";
 @import "components/logo";
 @import "base/base";
 @import "./components/modal";
 @import "./components/social";
-@import "./components/footer";
+
 @import "./components/customers";
+@import "./components/order";
 @import "./components/component";
+@import "./components/development";
+@import "./components/planning";
+@import "./components/command";
